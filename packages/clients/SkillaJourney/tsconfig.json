@@ -1,0 +1,22 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "lib" : ["ESNext"],                                     /* Specify library files to be included in the compilation. */
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "module": "CommonJS",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "paths": {
+      "@interfaces/*": ["./../../interfaces/typescript/*"],
+      "sj-authentication-react-native-sdk": ["./../../frameworks/authentication/sdk/lib/index"],
+    }
+  }
+}

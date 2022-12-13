@@ -1,0 +1,8 @@
+{
+  "firebase": {
+    "projectId": "the-digital-journey",
+    "databaseURL": "https://the-digital-journey.firebaseio.com",
+    "storageBucket": "the-digital-journey.appspot.com",
+    "locationId": "europe-west2"
+  }
+}
